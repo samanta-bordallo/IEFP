@@ -11,6 +11,12 @@ using System.Runtime.Serialization.Formatters.Binary;
  * When asking "do you want to go back to the previous menu," make the option to exit the program explicit when choosing "no."
  */
 
+/* How to update git:
+ * 1. Open command line tools (Git Bash)
+ * 2. cd borda/OneDrive/Área\ de\ Trabalho/Samanta/CURSO\ PROGRAMAÇÃO/IEFP/
+ * 3. 
+ */
+
 class Program
 {
     static List<Ufcd> ufcds = new List<Ufcd>();
