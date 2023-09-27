@@ -14,7 +14,9 @@ using System.Runtime.Serialization.Formatters.Binary;
 /* How to update git:
  * 1. Open command line tools (Git Bash)
  * 2. cd borda/OneDrive/Área\ de\ Trabalho/Samanta/CURSO\ PROGRAMAÇÃO/IEFP/
- * 3. 
+ * 3. git add .
+ * 4. git commit -m "your commit message here"]
+ * 5. git push
  */
 
 class Program
