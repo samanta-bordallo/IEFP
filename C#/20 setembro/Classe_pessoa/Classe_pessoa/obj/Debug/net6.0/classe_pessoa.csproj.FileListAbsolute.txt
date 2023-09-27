@@ -1,0 +1,14 @@
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\20 setembro\classe_pessoa\classe_pessoa\bin\Debug\net6.0\classe_pessoa.exe
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\20 setembro\classe_pessoa\classe_pessoa\bin\Debug\net6.0\classe_pessoa.deps.json
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\20 setembro\classe_pessoa\classe_pessoa\bin\Debug\net6.0\classe_pessoa.runtimeconfig.json
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\20 setembro\classe_pessoa\classe_pessoa\bin\Debug\net6.0\classe_pessoa.dll
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\20 setembro\classe_pessoa\classe_pessoa\bin\Debug\net6.0\classe_pessoa.pdb
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\20 setembro\classe_pessoa\classe_pessoa\obj\Debug\net6.0\classe_pessoa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\20 setembro\classe_pessoa\classe_pessoa\obj\Debug\net6.0\classe_pessoa.AssemblyInfoInputs.cache
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\20 setembro\classe_pessoa\classe_pessoa\obj\Debug\net6.0\classe_pessoa.AssemblyInfo.cs
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\20 setembro\classe_pessoa\classe_pessoa\obj\Debug\net6.0\classe_pessoa.csproj.CoreCompileInputs.cache
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\20 setembro\classe_pessoa\classe_pessoa\obj\Debug\net6.0\classe_pessoa.dll
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\20 setembro\classe_pessoa\classe_pessoa\obj\Debug\net6.0\refint\classe_pessoa.dll
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\20 setembro\classe_pessoa\classe_pessoa\obj\Debug\net6.0\classe_pessoa.pdb
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\20 setembro\classe_pessoa\classe_pessoa\obj\Debug\net6.0\classe_pessoa.genruntimeconfig.cache
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\20 setembro\classe_pessoa\classe_pessoa\obj\Debug\net6.0\ref\classe_pessoa.dll

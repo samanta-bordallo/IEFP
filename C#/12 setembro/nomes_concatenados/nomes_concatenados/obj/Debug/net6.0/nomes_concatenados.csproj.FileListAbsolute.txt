@@ -1,0 +1,14 @@
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\Aula _1_c#\12 setembro\nomes_concatenados\nomes_concatenados\bin\Debug\net6.0\nomes_concatenados.exe
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\Aula _1_c#\12 setembro\nomes_concatenados\nomes_concatenados\bin\Debug\net6.0\nomes_concatenados.deps.json
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\Aula _1_c#\12 setembro\nomes_concatenados\nomes_concatenados\bin\Debug\net6.0\nomes_concatenados.runtimeconfig.json
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\Aula _1_c#\12 setembro\nomes_concatenados\nomes_concatenados\bin\Debug\net6.0\nomes_concatenados.dll
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\Aula _1_c#\12 setembro\nomes_concatenados\nomes_concatenados\bin\Debug\net6.0\nomes_concatenados.pdb
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\Aula _1_c#\12 setembro\nomes_concatenados\nomes_concatenados\obj\Debug\net6.0\nomes_concatenados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\Aula _1_c#\12 setembro\nomes_concatenados\nomes_concatenados\obj\Debug\net6.0\nomes_concatenados.AssemblyInfoInputs.cache
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\Aula _1_c#\12 setembro\nomes_concatenados\nomes_concatenados\obj\Debug\net6.0\nomes_concatenados.AssemblyInfo.cs
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\Aula _1_c#\12 setembro\nomes_concatenados\nomes_concatenados\obj\Debug\net6.0\nomes_concatenados.csproj.CoreCompileInputs.cache
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\Aula _1_c#\12 setembro\nomes_concatenados\nomes_concatenados\obj\Debug\net6.0\nomes_concatenados.dll
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\Aula _1_c#\12 setembro\nomes_concatenados\nomes_concatenados\obj\Debug\net6.0\refint\nomes_concatenados.dll
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\Aula _1_c#\12 setembro\nomes_concatenados\nomes_concatenados\obj\Debug\net6.0\nomes_concatenados.pdb
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\Aula _1_c#\12 setembro\nomes_concatenados\nomes_concatenados\obj\Debug\net6.0\nomes_concatenados.genruntimeconfig.cache
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\Aula _1_c#\12 setembro\nomes_concatenados\nomes_concatenados\obj\Debug\net6.0\ref\nomes_concatenados.dll
