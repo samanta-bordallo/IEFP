@@ -1,0 +1,14 @@
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\Projeto de Programação\Projeto_UFCDs_Sonia\Projeto_UFCDs_Sonia\bin\Debug\net6.0\Projeto_UFCDs_Sonia.exe
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\Projeto de Programação\Projeto_UFCDs_Sonia\Projeto_UFCDs_Sonia\bin\Debug\net6.0\Projeto_UFCDs_Sonia.deps.json
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\Projeto de Programação\Projeto_UFCDs_Sonia\Projeto_UFCDs_Sonia\bin\Debug\net6.0\Projeto_UFCDs_Sonia.runtimeconfig.json
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\Projeto de Programação\Projeto_UFCDs_Sonia\Projeto_UFCDs_Sonia\bin\Debug\net6.0\Projeto_UFCDs_Sonia.dll
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\Projeto de Programação\Projeto_UFCDs_Sonia\Projeto_UFCDs_Sonia\bin\Debug\net6.0\Projeto_UFCDs_Sonia.pdb
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\Projeto de Programação\Projeto_UFCDs_Sonia\Projeto_UFCDs_Sonia\obj\Debug\net6.0\Projeto_UFCDs_Sonia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\Projeto de Programação\Projeto_UFCDs_Sonia\Projeto_UFCDs_Sonia\obj\Debug\net6.0\Projeto_UFCDs_Sonia.AssemblyInfoInputs.cache
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\Projeto de Programação\Projeto_UFCDs_Sonia\Projeto_UFCDs_Sonia\obj\Debug\net6.0\Projeto_UFCDs_Sonia.AssemblyInfo.cs
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\Projeto de Programação\Projeto_UFCDs_Sonia\Projeto_UFCDs_Sonia\obj\Debug\net6.0\Projeto_UFCDs_Sonia.csproj.CoreCompileInputs.cache
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\Projeto de Programação\Projeto_UFCDs_Sonia\Projeto_UFCDs_Sonia\obj\Debug\net6.0\Projeto_UFCDs_Sonia.dll
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\Projeto de Programação\Projeto_UFCDs_Sonia\Projeto_UFCDs_Sonia\obj\Debug\net6.0\refint\Projeto_UFCDs_Sonia.dll
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\Projeto de Programação\Projeto_UFCDs_Sonia\Projeto_UFCDs_Sonia\obj\Debug\net6.0\Projeto_UFCDs_Sonia.pdb
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\Projeto de Programação\Projeto_UFCDs_Sonia\Projeto_UFCDs_Sonia\obj\Debug\net6.0\Projeto_UFCDs_Sonia.genruntimeconfig.cache
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\Projeto de Programação\Projeto_UFCDs_Sonia\Projeto_UFCDs_Sonia\obj\Debug\net6.0\ref\Projeto_UFCDs_Sonia.dll

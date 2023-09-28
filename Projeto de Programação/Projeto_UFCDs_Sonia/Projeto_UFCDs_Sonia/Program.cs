@@ -33,7 +33,7 @@ class Program
         Console.WriteLine("Hello, welcome to the IEFP Leiria UFCDs Enrollment Management Project");
         MainMenu();
     }
-    
+
     static void MainMenu()
     {
         Console.WriteLine("---\nWhich option do you want?\n" +
@@ -46,7 +46,7 @@ class Program
             "\n7) Exit\n");
 
         string decisionMainMenu = Console.ReadLine();
-        string BinarySaveFile = @"C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\20 setembro\project_sonia_test2\binaries.bin";
+        string BinarySaveFile = @"C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\Projeto de Programação\Projeto_UFCDs_Sonia\Projeto_UFCDs_Sonia\binaries.bin";
 
         switch (decisionMainMenu)
         {
@@ -237,7 +237,7 @@ class Program
 
         Console.WriteLine("Student enrolled successfully!");
 
-        Console.WriteLine(""Do you want to return to the main menu ? " +
+        Console.WriteLine("Do you want to return to the main menu ? " +
             "\n1) yes" +
             "\n2) no, exit the program");
         string returnToManageStudentsMenu = Console.ReadLine();
@@ -333,7 +333,7 @@ class Program
 
         Console.WriteLine("Professor enrolled successfully!");
 
-        Console.WriteLine(""Do you want to return to the main menu ? " +
+        Console.WriteLine("Do you want to return to the main menu ? " +
             "\n1) yes" +
             "\n2) no, exit the program");
         string returnToManageProfessorsMenu = Console.ReadLine();
@@ -357,7 +357,7 @@ class Program
             Console.WriteLine($"Availability: {professor.Availability}\n");
         }
 
-        Console.WriteLine(""Do you want to return to the main menu ? " +
+        Console.WriteLine("Do you want to return to the main menu ? " +
             "\n1) yes" +
             "\n2) no, exit the program");
         string returnToManageProfessorsMenu = Console.ReadLine();
@@ -626,29 +626,29 @@ class Program
 
     static void LoadData(string BinarySaveFile)
     {
-            try
+        try
+        {
+            using (FileStream fs = new FileStream(BinarySaveFile, FileMode.Open))
             {
-                using (FileStream fs = new FileStream(BinarySaveFile, FileMode.Open))
-                {
-                    BinaryFormatter formatter = new BinaryFormatter();
-                    ufcds = (List<Ufcd>)formatter.Deserialize(fs); // Carrega a lista ufcds do arquivo
-                    classes = (List<Class>)formatter.Deserialize(fs); // Carrega a lista classes do arquivo
-                    professors = (List<Professor>)formatter.Deserialize(fs); // Carrega a lista professors do arquivo
-                    turmas = (List<Turma>)formatter.Deserialize(fs); // Carrega a lista turmas do arquivo
-                    
-                    students = (List<Student>)formatter.Deserialize(fs); // Carrega a lista students do arquivo
-                    Console.WriteLine("Data loaded successfully!");
-                }
+                BinaryFormatter formatter = new BinaryFormatter();
+                ufcds = (List<Ufcd>)formatter.Deserialize(fs); // Carrega a lista ufcds do arquivo
+                classes = (List<Class>)formatter.Deserialize(fs); // Carrega a lista classes do arquivo
+                professors = (List<Professor>)formatter.Deserialize(fs); // Carrega a lista professors do arquivo
+                turmas = (List<Turma>)formatter.Deserialize(fs); // Carrega a lista turmas do arquivo
+
+                students = (List<Student>)formatter.Deserialize(fs); // Carrega a lista students do arquivo
+                Console.WriteLine("Data loaded successfully!");
             }
-            catch (IOException e)
-            {
-                Console.WriteLine("Error loading data: " + e.Message);
-            }
-            catch (SerializationException e)
-            {
-                Console.WriteLine("Error deserializing data: " + e.Message);
-            }
-       
+        }
+        catch (IOException e)
+        {
+            Console.WriteLine("Error loading data: " + e.Message);
+        }
+        catch (SerializationException e)
+        {
+            Console.WriteLine("Error deserializing data: " + e.Message);
+        }
+
     }
 
     // Classes2
@@ -717,4 +717,4 @@ class Program
         public string Name { get; set; }
         public string DateOfBirth;
     }
- }
+}
