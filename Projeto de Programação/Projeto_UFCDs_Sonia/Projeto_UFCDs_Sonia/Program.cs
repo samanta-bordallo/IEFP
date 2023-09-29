@@ -21,8 +21,8 @@ using System.Linq;
  */
 
 class Program
-{
-    static List<Ufcd> ufcds = new List<Ufcd>();
+{   // Esse bloco serve para declarar as listas que são estáticas
+    static List<Ufcd> ufcds = new List<Ufcd>(); //ufcds = lista de objetos do tipo ufcd
     static List<Class> classes = new List<Class>();
     static List<Student> students = new List<Student>();
     static List<Professor> professors = new List<Professor>();
@@ -32,6 +32,35 @@ class Program
     {
         Console.WriteLine("Hello, welcome to the IEFP Leiria UFCDs Enrollment Management Project");
         MainMenu();
+    }
+
+    static bool ValidatePath(string Path, boolean ValidatePathResult)
+    {
+        string Pattern = @"^@""/[a-zA-Z0-9_/]+\.bin""$";
+
+        while (!ValidatePathResult) {
+            if (BinaryFilePath.IndexOfAny(Path.GetInvalidPathChars()) >= 0) {
+                Console.WriteLine("Invalid characters in path.");
+                Console.WriteLine(Path);
+            }
+            else if (!BinaryFilePath.EndsWith(".bin")) {
+                Console.WriteLine("File must end with .bin extension.");
+                Console.WriteLine(Path);
+            }
+             else if (!BinaryFilePath.StartsWith("@")) {
+                Console.WriteLine("File must starts with @ symbol.");
+                Console.WriteLine(Path);
+            }
+            else if (!Regex.IsMatch(Path, Pattern)) {
+                Console.WriteLine("The path is not in the valid format.");
+                Console.WriteLine(Path);
+            }
+            else {
+                ValidatePathResult = true;
+                Console.WriteLine(Path);
+                Console.WriteLine("\nTRUE");
+            }
+        }
     }
 
     static void MainMenu()
@@ -45,10 +74,15 @@ class Program
                 "\n4) Manage Professors" +
                 "\n\n5) Save Data" +
                 "\n6) Load Data" +
-                "\n7) Exit\n");
+                "\n7) Set Binary Path" +
+                "\n8) Exit\n");
 
             string decisionMainMenu = Console.ReadLine();
-            string BinarySaveFile = @"C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\Projeto de Programação\Projeto_UFCDs_Sonia\Projeto_UFCDs_Sonia\binaries.bin";
+            string BinarySaveFile = @"/home/schu/Downloads/samanta/IEFP/Projeto de Programação/Projeto_UFCDs_Sonia/Projeto_UFCDs_Sonia/binaries_test.bin";
+            string BinaryFilePath = "";
+            bool ValidatePathResult = false;
+            // make the user input define the above
+            // print the above variable to see if the @ is included as expected
 
             switch (decisionMainMenu)
             {
@@ -75,6 +109,14 @@ class Program
                     MainMenu();
                     break;
                 case "7":
+                    Console.Write("Please input the path to save your binary files. Follow this prompt: \n");
+                    Console.Write("\t@\"test/your/path/BINARY_FILE_NAME.bin\"\n");
+                    Console.Write("Don't forget the '@' at the begginning, the position of the \"\", and to specify the name and extension of the binary file at the end of the path.\n");                    
+                    
+                    ValidatePathResult = ValidatePath(BinaryFilePath);
+                    Console.WriteLine(result);
+                    break;
+                case "8":
                     Console.WriteLine("Goodbye!");
                     Environment.Exit(0); // Força a saída do programa
                     return;
@@ -167,7 +209,7 @@ class Program
         Console.Write("Enter Class Name: ");
         string className = Console.ReadLine();
 
-        Class selectedClass = classes.FirstOrDefault(cls => cls.Name == className);
+        Class selectedClass = classes.FirstOrDefault(cls => cls.Name == className); // Busca a classe selecionada na lista de classes
 
         if (selectedClass == null)
         {
@@ -181,9 +223,9 @@ class Program
         foreach (var student in selectedClass.Students)
         {
             Console.WriteLine($"ID: {student.ID}, Name: {student.Name}");
-            student.Grades = new List<string>(); // Inicialize a lista Grades para cada aluno
+            student.Grades = new List<string>(); // Inicializa a lista Grades para cada aluno
         }
-
+       
         Console.Write("Enter Grades for Students (comma-separated): ");
         string gradesInput = Console.ReadLine();
         string[] grades = gradesInput.Split(',');
@@ -212,7 +254,7 @@ class Program
     }
 
 
-    static void ListClassNames()
+    static void ListClassNames() // essa função é usada apenas para mostrar os nomes das classes durante a atribuição das notas
     {
         Console.WriteLine("---\nList of Classes:");
 
@@ -307,14 +349,31 @@ class Program
             Availability = availability
         });
 
-        Console.WriteLine("Student enrolled successfully!");
+        Console.WriteLine("Where do you want to go next? " +
+            "\n1) Main Menu" +
+            "\n2) Student Menu" +
+            "\n3) Enrol a new student");
 
-        Console.WriteLine("Do you want to return to the main menu ? " +
-            "\n1) yes" +
-            "\n2) no, exit the program");
-        string returnToManageStudentsMenu = Console.ReadLine();
-        if (returnToManageStudentsMenu.ToLower() == "1")
-            ManageStudents();
+        string choseManageStudents = Console.ReadLine();
+
+        switch (choseManageStudents)
+        {
+            case "1":
+                MainMenu();
+                    break;
+            case "2":
+                ManageStudents();
+                break;
+            case "3":
+                EnrollStudent();
+                break;
+            default:
+                Console.WriteLine("Invalid option, redirecting to Main Menu");
+                MainMenu();
+                break;
+        }
+
+        Console.WriteLine("Student enrolled successfully!");
     }
 
     static void ListStudents()
