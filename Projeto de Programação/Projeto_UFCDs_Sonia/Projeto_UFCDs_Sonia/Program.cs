@@ -20,8 +20,8 @@ using System.Runtime.Serialization.Formatters.Binary;
  */
 
 class Program
-{
-    static List<Ufcd> ufcds = new List<Ufcd>();
+{   // Esse bloco serve para declarar as listas que são estáticas
+    static List<Ufcd> ufcds = new List<Ufcd>(); //ufcds = lista de objetos do tipo ufcd
     static List<Class> classes = new List<Class>();
     static List<Student> students = new List<Student>();
     static List<Professor> professors = new List<Professor>();
@@ -29,58 +29,63 @@ class Program
 
     static void Main(string[] args)
     {
-        Program program = new Program();
+        Program program = new Program(); //cria uma nova instância da classe Program e armazena a referência na variável program.
         Console.WriteLine("Hello, welcome to the IEFP Leiria UFCDs Enrollment Management Project");
         MainMenu();
     }
 
     static void MainMenu()
     {
-        Console.WriteLine("---\nWhich option do you want?\n" +
-            "\n1) UFCDs" +
-            "\n2) Classes" +
-            "\n3) Manage Students" +
-            "\n4) Manage Professors" +
-            "\n\n5) Save Data" +
-            "\n6) Load Data" +
-            "\n7) Exit\n");
-
-        string decisionMainMenu = Console.ReadLine();
-        string BinarySaveFile = @"C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\Projeto de Programação\Projeto_UFCDs_Sonia\Projeto_UFCDs_Sonia\binaries.bin";
-
-        switch (decisionMainMenu)
+        while (true)
         {
-            case "1":
-                UfcdMenu();
-                break;
-            case "2":
-                ClassesMenu();
-                break;
-            case "3":
-                ManageStudents();
-                break;
-            case "4":
-                ManageProfessors();
-                break;
-            case "5":
-                SaveData(BinarySaveFile);
-                Console.WriteLine("Data was saved!");
-                MainMenu();
-                break;
-            case "6":
-                LoadData(BinarySaveFile);
-                Console.WriteLine("Data was loaded!");
-                MainMenu();
-                break;
-            case "7":
-                Console.WriteLine("Goodbye!");
-                break;
-            default:
-                Console.WriteLine("Invalid option");
-                MainMenu();
-                break;
+            Console.WriteLine("---\nWhich option do you want?\n" +
+                "\n1) UFCDs" +
+                "\n2) Classes" +
+                "\n3) Manage Students" +
+                "\n4) Manage Professors" +
+                "\n\n5) Save Data" +
+                "\n6) Load Data" +
+                "\n7) Exit\n");
+
+            string decisionMainMenu = Console.ReadLine();
+            string BinarySaveFile = @"C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\Projeto de Programação\Projeto_UFCDs_Sonia\Projeto_UFCDs_Sonia\binaries.bin";
+
+            switch (decisionMainMenu)
+            {
+                case "1":
+                    UfcdMenu();
+                    break;
+                case "2":
+                    ClassesMenu();
+                    break;
+                case "3":
+                    ManageStudents();
+                    break;
+                case "4":
+                    ManageProfessors();
+                    break;
+                case "5":
+                    SaveData(BinarySaveFile);
+                    Console.WriteLine("Data was saved!");
+                    MainMenu();
+                    break;
+                case "6":
+                    LoadData(BinarySaveFile);
+                    Console.WriteLine("Data was loaded!");
+                    MainMenu();
+                    break;
+                case "7":
+                    Console.WriteLine("Goodbye!");
+                    Environment.Exit(0); // Força a saída do programa
+                    return;
+                default:
+                    Console.WriteLine("Invalid option");
+                    MainMenu();
+                    break;
+            }
         }
     }
+
 
     // UFCD
     static void UfcdMenu()
@@ -109,6 +114,7 @@ class Program
                 break;
         }
     }
+
 
     static void CreateUfcd()
     {
@@ -148,6 +154,72 @@ class Program
         string returnToMainMenu = Console.ReadLine();
         if (returnToMainMenu.ToLower() == "1")
             MainMenu();
+    }
+
+    static void GiveGradesToStudents()
+    {
+        Console.WriteLine("---\nGive Grades to Students");
+
+        // Listar nomes das turmas existentes
+        Console.WriteLine("Available Classes:");
+        ListClassNames();
+
+        Console.Write("Enter Class Name: ");
+        string className = Console.ReadLine();
+
+        Class selectedClass = classes.FirstOrDefault(cls => cls.Name == className); // Busca a classe selecionada na lista de classes
+
+        if (selectedClass == null)
+        {
+            Console.WriteLine("Class not found.");
+            GiveGradesToStudents();
+            return; // Volta para evitar processamento adicional
+        }
+
+        Console.WriteLine($"Students in {selectedClass.Name}:");
+
+        foreach (var student in selectedClass.Students)
+        {
+            Console.WriteLine($"ID: {student.ID}, Name: {student.Name}");
+            student.Grades = new List<string>(); // Inicializa a lista Grades para cada aluno
+        }
+       
+        Console.Write("Enter Grades for Students (comma-separated): ");
+        string gradesInput = Console.ReadLine();
+        string[] grades = gradesInput.Split(',');
+
+        if (grades.Length != selectedClass.Students.Count)
+        {
+            Console.WriteLine("Invalid number of grades. Please provide a grade for each student.");
+            GiveGradesToStudents();
+            return; // Volta para evitar processamento adicional
+        }
+
+        for (int i = 0; i < selectedClass.Students.Count; i++)
+        {
+            selectedClass.Students[i].Grades.Add(grades[i].Trim());
+        }
+
+        Console.WriteLine("Grades added successfully!");
+
+        // Atualizar a descrição da turma com as notas
+        selectedClass.Description += $"\nGrades for Class '{selectedClass.Name}': {string.Join(", ", grades)}";
+
+        Console.WriteLine("Do you want to return to the main menu? (yes/no)");
+        string returnToMainMenu = Console.ReadLine();
+        if (returnToMainMenu.ToLower() == "yes")
+            MainMenu();
+    }
+
+
+    static void ListClassNames() // essa função é usada apenas para mostrar os nomes das classes durante a atribuição das notas
+    {
+        Console.WriteLine("---\nList of Classes:");
+
+        foreach (var cls in classes)
+        {
+            Console.WriteLine($"Class Name: {cls.Name}");
+        }
     }
 
     static void ListUfcds()
@@ -375,7 +447,8 @@ class Program
             "\n3) Edit Class" +
             "\n4) Add UFCDs to Class" +
             "\n5) Add Student to Class" +
-            "\n6) Return to main menu\n");
+            "\n6) Give Grades to Students" +
+            "\n7) Return to main menu\n");
 
         string choseClassesMenu = Console.ReadLine();
 
@@ -397,6 +470,9 @@ class Program
                 AddStudentsToClass();
                 break;
             case "6":
+                GiveGradesToStudents();
+                break;
+            case "7":
                 MainMenu();
                 break;
             default:
@@ -518,6 +594,7 @@ class Program
                 Console.WriteLine($"  Name: {student.Name}");
                 Console.WriteLine($"  ID: {student.ID}");
                 Console.WriteLine($"  NIF: {student.NIF}");
+                Console.WriteLine($"  Grade: {string.Join(", ", student.Grades)}");
             }
 
             Console.WriteLine();
@@ -660,14 +737,19 @@ class Program
         public string Schedule { get; set; }
         public string Professor { get; set; }
         public List<Ufcd> Ufcds { get; set; } = new List<Ufcd>();
-        public List<Student> Students { get; set; } = new List<Student>(); // Adicionando a lista de estudantes
+        public List<Student> Students { get; set; } = new List<Student>();
+        public string Description { get; set; } = string.Empty;
 
+        public Class()
+        {
+            Students = new List<Student>();
+        }
         public void AddUfcd(Ufcd ufcd)
         {
             Ufcds.Add(ufcd);
         }
 
-        public void AddStudent(Student student) // Adicionando o método AddStudent
+        public void AddStudent(Student student)
         {
             Students.Add(student);
         }
@@ -683,6 +765,7 @@ class Program
         public string Modality { get; set; }
         public string Schedule { get; set; }
         public string Course { get; set; }
+        public List<Student> Students { get; set; } = new List<Student>();
     }
 
     [Serializable]
@@ -696,6 +779,7 @@ class Program
         public string Address { get; set; }
         public string Phone { get; set; }
         public string Availability { get; set; }
+        public List<string> Grades { get; set; } = new List<string>();
     }
 
     [Serializable]
@@ -715,6 +799,6 @@ class Program
     class Turma
     {
         public string Name { get; set; }
-        public string DateOfBirth;
+        public List<Student> Students { get; set; } = new List<Student>();
     }
 }
