@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
+using System.Linq;
 
 /* TODO:
  * Implement binary files for everything (validate and handle potential issues, if they occur, fix them).
@@ -20,8 +21,8 @@ using System.Runtime.Serialization.Formatters.Binary;
  */
 
 class Program
-{   // Esse bloco serve para declarar as listas que são estáticas
-    static List<Ufcd> ufcds = new List<Ufcd>(); //ufcds = lista de objetos do tipo ufcd
+{
+    static List<Ufcd> ufcds = new List<Ufcd>();
     static List<Class> classes = new List<Class>();
     static List<Student> students = new List<Student>();
     static List<Professor> professors = new List<Professor>();
@@ -29,7 +30,6 @@ class Program
 
     static void Main(string[] args)
     {
-        Program program = new Program(); //cria uma nova instância da classe Program e armazena a referência na variável program.
         Console.WriteLine("Hello, welcome to the IEFP Leiria UFCDs Enrollment Management Project");
         MainMenu();
     }
@@ -167,7 +167,7 @@ class Program
         Console.Write("Enter Class Name: ");
         string className = Console.ReadLine();
 
-        Class selectedClass = classes.FirstOrDefault(cls => cls.Name == className); // Busca a classe selecionada na lista de classes
+        Class selectedClass = classes.FirstOrDefault(cls => cls.Name == className);
 
         if (selectedClass == null)
         {
@@ -181,9 +181,9 @@ class Program
         foreach (var student in selectedClass.Students)
         {
             Console.WriteLine($"ID: {student.ID}, Name: {student.Name}");
-            student.Grades = new List<string>(); // Inicializa a lista Grades para cada aluno
+            student.Grades = new List<string>(); // Inicialize a lista Grades para cada aluno
         }
-       
+
         Console.Write("Enter Grades for Students (comma-separated): ");
         string gradesInput = Console.ReadLine();
         string[] grades = gradesInput.Split(',');
@@ -212,7 +212,7 @@ class Program
     }
 
 
-    static void ListClassNames() // essa função é usada apenas para mostrar os nomes das classes durante a atribuição das notas
+    static void ListClassNames()
     {
         Console.WriteLine("---\nList of Classes:");
 
