@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "aula-Sergio-11-10/1.0.0": {
+        "runtime": {
+          "aula-Sergio-11-10.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "aula-Sergio-11-10/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
