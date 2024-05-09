@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/DEMO_IEFP_12_4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/IEFP_Leiria_TPSI_2324" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TreinandoPushPull" vcs="Git" />
   </component>
 </project>
