@@ -1,0 +1,14 @@
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\18 setembro\aula_manha_18_setembro\aula_manha_18_setembro\bin\Debug\net6.0\aula_manha_18_setembro.exe
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\18 setembro\aula_manha_18_setembro\aula_manha_18_setembro\bin\Debug\net6.0\aula_manha_18_setembro.deps.json
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\18 setembro\aula_manha_18_setembro\aula_manha_18_setembro\bin\Debug\net6.0\aula_manha_18_setembro.runtimeconfig.json
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\18 setembro\aula_manha_18_setembro\aula_manha_18_setembro\bin\Debug\net6.0\aula_manha_18_setembro.dll
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\18 setembro\aula_manha_18_setembro\aula_manha_18_setembro\bin\Debug\net6.0\aula_manha_18_setembro.pdb
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\18 setembro\aula_manha_18_setembro\aula_manha_18_setembro\obj\Debug\net6.0\aula_manha_18_setembro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\18 setembro\aula_manha_18_setembro\aula_manha_18_setembro\obj\Debug\net6.0\aula_manha_18_setembro.AssemblyInfoInputs.cache
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\18 setembro\aula_manha_18_setembro\aula_manha_18_setembro\obj\Debug\net6.0\aula_manha_18_setembro.AssemblyInfo.cs
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\18 setembro\aula_manha_18_setembro\aula_manha_18_setembro\obj\Debug\net6.0\aula_manha_18_setembro.csproj.CoreCompileInputs.cache
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\18 setembro\aula_manha_18_setembro\aula_manha_18_setembro\obj\Debug\net6.0\aula_manha_18_setembro.dll
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\18 setembro\aula_manha_18_setembro\aula_manha_18_setembro\obj\Debug\net6.0\refint\aula_manha_18_setembro.dll
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\18 setembro\aula_manha_18_setembro\aula_manha_18_setembro\obj\Debug\net6.0\aula_manha_18_setembro.pdb
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\18 setembro\aula_manha_18_setembro\aula_manha_18_setembro\obj\Debug\net6.0\aula_manha_18_setembro.genruntimeconfig.cache
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\18 setembro\aula_manha_18_setembro\aula_manha_18_setembro\obj\Debug\net6.0\ref\aula_manha_18_setembro.dll

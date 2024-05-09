@@ -1,0 +1,14 @@
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\20 setembro\heranca_polimorfismo\heranca_polimorfismo\bin\Debug\net6.0\heranca_polimorfismo.exe
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\20 setembro\heranca_polimorfismo\heranca_polimorfismo\bin\Debug\net6.0\heranca_polimorfismo.deps.json
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\20 setembro\heranca_polimorfismo\heranca_polimorfismo\bin\Debug\net6.0\heranca_polimorfismo.runtimeconfig.json
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\20 setembro\heranca_polimorfismo\heranca_polimorfismo\bin\Debug\net6.0\heranca_polimorfismo.dll
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\20 setembro\heranca_polimorfismo\heranca_polimorfismo\bin\Debug\net6.0\heranca_polimorfismo.pdb
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\20 setembro\heranca_polimorfismo\heranca_polimorfismo\obj\Debug\net6.0\heranca_polimorfismo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\20 setembro\heranca_polimorfismo\heranca_polimorfismo\obj\Debug\net6.0\heranca_polimorfismo.AssemblyInfoInputs.cache
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\20 setembro\heranca_polimorfismo\heranca_polimorfismo\obj\Debug\net6.0\heranca_polimorfismo.AssemblyInfo.cs
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\20 setembro\heranca_polimorfismo\heranca_polimorfismo\obj\Debug\net6.0\heranca_polimorfismo.csproj.CoreCompileInputs.cache
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\20 setembro\heranca_polimorfismo\heranca_polimorfismo\obj\Debug\net6.0\heranca_polimorfismo.dll
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\20 setembro\heranca_polimorfismo\heranca_polimorfismo\obj\Debug\net6.0\refint\heranca_polimorfismo.dll
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\20 setembro\heranca_polimorfismo\heranca_polimorfismo\obj\Debug\net6.0\heranca_polimorfismo.pdb
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\20 setembro\heranca_polimorfismo\heranca_polimorfismo\obj\Debug\net6.0\heranca_polimorfismo.genruntimeconfig.cache
+C:\Users\borda\OneDrive\Área de Trabalho\Samanta\CURSO PROGRAMAÇÃO\IEFP\C#\20 setembro\heranca_polimorfismo\heranca_polimorfismo\obj\Debug\net6.0\ref\heranca_polimorfismo.dll

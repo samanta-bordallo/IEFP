@@ -1,0 +1,7 @@
+Name: Programming
+Code: 1
+Description: shuashuashua
+Duration: 25
+Modality: presencial
+Schedule: 12/12/23
+Course: TAA
