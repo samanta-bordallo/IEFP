@@ -1,6 +1,8 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 
+#exercicio feito no dia 09/05/2024
+
 app = FastAPI()
 
 # Definindo os modelos de dados

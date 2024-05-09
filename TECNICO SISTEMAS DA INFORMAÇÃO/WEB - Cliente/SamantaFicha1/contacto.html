@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 300px;
+            width: 100%;
+            padding: 20px;
+            background-color: #fff;
+            border: 2px solid #333;
+            border-radius: 20px;
+            text-align: center;
+            margin-right: 10px;
+            box-sizing: border-box;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        input[type="text"],
+        textarea {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Entre em Contacto</h1>
+        <form action="#" method="post">
+            <input type="text" name="nome" placeholder="Seu nome" required><br>
+            <input type="text" name="email" placeholder="Seu email" required><br>
+            <textarea name="mensagem" placeholder="Sua mensagem" rows="4" required></textarea><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <div class="container">
+        <h2>Informações de Contacto</h2>
+        <p><strong>Nome:</strong> Celaena Sardothien</p>
+        <p><strong>Telefone:</strong> +1 234 567 890</p>
+        <p><strong>Email:</strong> celaena@example.com</p>
+        <p><strong>Endereço:</strong> Rua das Sombras, 13</p>
+    </div>
+</body>
+</html>

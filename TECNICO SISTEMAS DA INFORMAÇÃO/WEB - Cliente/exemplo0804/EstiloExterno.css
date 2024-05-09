@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+    border: 5px solid red; /* Combined border properties for efficiency */
+    border-style: solid;
+    border-color: red ;
+  }
+  
+  p {
+    color: blue;
+  }
+  

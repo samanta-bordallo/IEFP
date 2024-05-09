@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Layout Básico</title>
+	<link rel="stylesheet" href="exemplo2.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h1>Página de HTML</h1>
+			<hr />
+			<h2>Blog da formação</h2>
+		</div>
+	</header>
+		
+	
+	<nav>
+		<h2>Índice</h2>
+		<ol>
+			<li><a href="#pessoal">Informações Pessoais</a></li>
+			<li><a href="#notas">Notas de <em>Tecnologia para Internet</em></a></li>
+			<li><a href="#contato">Contato</a></li>
+		</ol>
+	</nav>
+	
+	<section id="pessoal">
+		<h2>1. Informações Pessoais</h2>
+		<img src="imagens/logo.jpg"
+			width="330" height="80" title="CSS"
+			alt="Logo" />
+		<p>
+			<b>Professor das seguintes disciplinas:</b>
+		</p>
+		<ul>
+			<li>5089 - Programação – Algoritmos</li>
+			<li>0809 - Programação em CC++</li>
+			<li>5425- Projeto de tecnologias e programação de sistemas de informação</li>
+			<li>10798 - Ingestão de dados</li>
+		</ul>
+	</section>
+	
+	<section id="notas">
+		<h2>2. Notas dos Alunos de Programação – Algoritmos</h2>
+	
+		<table>
+			<caption>Tabela 1</caption>
+			<thead>
+				<tr>
+					<th>Nome do Aluno<sup>(1)</sup></th>
+					<th>Nota Final</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Sem Dados</td>
+					<td>Sem Dados</td>
+				</tr>
+				<tr>
+					<td>Sem Dados</td>
+					<td>Sem Dados</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+
+	<section id="contato">
+		<h2>3. Mais informaçõeses sobre HTML 5 e CSS na  </h2>
+		<p>
+			<a href="https://w3schools.com/">página da W3SCHOOLS</a>.
+		</p>
+	</section>
+	
+	<footer>
+		<hr />
+		<p>
+			IEFP, 2024. Todos os direitos reservados.
+		</p>
+	</footer>
+</body>
+</html>

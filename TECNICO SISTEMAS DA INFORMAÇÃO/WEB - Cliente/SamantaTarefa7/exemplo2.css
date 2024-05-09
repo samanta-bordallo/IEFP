@@ -1,0 +1,100 @@
+body {
+   font-family: verdana, arial, sans-serif;
+   background-color: rgb(240,240,220);
+   padding: 10px;
+}
+
+
+h1 {
+   font-size: 2.0em;
+   font-weight: normal;
+   }
+
+h2 {
+   font-size: 1.3em;
+   font-weight: bold;
+   font-variant: small-caps;
+   color: rgb(0,0,50);
+   }
+
+
+p {
+   margin: 5px;
+   font-size: 1.1em;
+   }
+
+a {
+   font-weight: bold;
+   text-decoration: none;
+   font-variant: small-caps;
+   color: rgb(50,50,200);
+   }
+
+hr {
+ display: none;
+  }
+
+table {
+  background-color: rgb(10,10,20);
+  border-width: 3px;
+  border-color: rgb(10,10,20);
+  border-style: solid;
+  margin-left: 2em;
+}
+
+td, th {
+  padding: 2px;
+  background-color: rgb(255,255,200);
+}
+
+th {
+  font-variant: small-caps;
+}
+header, footer{
+	width: 100%;
+	color:rgb(255,255,200);
+	background-color:rgb(50,50,100);
+	text-align:center;
+}
+
+header{
+	border-style:ridge;
+	border-width:5px;
+	border-color:white;
+	margin-bottom:10px;
+}
+
+header h2{
+	color:white;
+}
+li{
+	margin-bottom:0.5em;
+}
+
+section{
+	margin-left:25%;
+	border-style:ridge;
+	border-width:5px;
+	border-color:white;
+	padding:1em;
+}
+
+section p {
+	text-indent:2em;
+	text-align:justify;
+	
+}
+footer{
+	margin-top:0.2em;
+	padding:0.5em;
+}
+
+nav{
+	float: left;
+	width:20%;
+	background-color:white;
+	border-style:ridge;
+	border-width:5px;
+	border-color:white;
+	padding:1em;
+}
