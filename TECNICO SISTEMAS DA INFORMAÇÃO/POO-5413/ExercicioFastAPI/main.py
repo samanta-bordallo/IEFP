@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 
 #exercicio feito no dia 09/05/2024
+#por Samanta Bordallo
 
 app = FastAPI()
 
